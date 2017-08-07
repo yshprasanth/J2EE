@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/J2EE-HandsOn.iml" filepath="$PROJECT_DIR$/J2EE-HandsOn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrancy/concurrancy.iml" filepath="$PROJECT_DIR$/concurrancy/concurrancy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j2eeDesignPatterns/j2eeDesignPatterns.iml" filepath="$PROJECT_DIR$/j2eeDesignPatterns/j2eeDesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/regExprn/regExprn.iml" filepath="$PROJECT_DIR$/regExprn/regExprn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sortingAlgorithms/sortingAlgorithms.iml" filepath="$PROJECT_DIR$/sortingAlgorithms/sortingAlgorithms.iml" />
+    </modules>
+  </component>
+</project>

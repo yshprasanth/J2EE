@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="concurrancy" />
+        <module name="j2eeDesignPatterns" />
+        <module name="regExprn" />
+        <module name="sortingAlgorithms" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="concurrancy" target="1.8" />
+      <module name="J2EE-HandsOn" target="1.8" />
+      <module name="j2eeDesignPatterns" target="1.8" />
+      <module name="regExprn" target="1.8" />
+      <module name="sortingAlgorithms" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
