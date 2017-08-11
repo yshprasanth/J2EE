@@ -9,6 +9,8 @@
         <module>sortingAlgorithms</module>
         <module>concurrancy</module>
         <module>regExprn</module>
+        <module>complexArithmeticSolutions</module>
+        <module>coreJava</module>
     </modules>
     <groupId>com.sai.sri.siddhi.java</groupId>
     <version>1.0-SNAPSHOT</version>

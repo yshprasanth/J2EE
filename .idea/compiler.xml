@@ -6,14 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="complexArithmeticSolutions" />
         <module name="concurrancy" />
+        <module name="coreJava" />
         <module name="j2eeDesignPatterns" />
         <module name="regExprn" />
         <module name="sortingAlgorithms" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="complexArithmeticSolutions" target="1.8" />
       <module name="concurrancy" target="1.8" />
+      <module name="coreJava" target="1.8" />
       <module name="J2EE-HandsOn" target="1.8" />
       <module name="j2eeDesignPatterns" target="1.8" />
       <module name="regExprn" target="1.8" />

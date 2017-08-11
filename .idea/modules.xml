@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/J2EE-HandsOn.iml" filepath="$PROJECT_DIR$/J2EE-HandsOn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/complexArithmeticSolutions/complexArithmeticSolutions.iml" filepath="$PROJECT_DIR$/complexArithmeticSolutions/complexArithmeticSolutions.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrancy/concurrancy.iml" filepath="$PROJECT_DIR$/concurrancy/concurrancy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coreJava/coreJava.iml" filepath="$PROJECT_DIR$/coreJava/coreJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/j2eeDesignPatterns/j2eeDesignPatterns.iml" filepath="$PROJECT_DIR$/j2eeDesignPatterns/j2eeDesignPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/regExprn/regExprn.iml" filepath="$PROJECT_DIR$/regExprn/regExprn.iml" />
       <module fileurl="file://$PROJECT_DIR$/sortingAlgorithms/sortingAlgorithms.iml" filepath="$PROJECT_DIR$/sortingAlgorithms/sortingAlgorithms.iml" />
