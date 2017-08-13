@@ -1,9 +1,6 @@
 package comparator;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class SortList {
 
@@ -23,7 +20,7 @@ public class SortList {
 
         g.order(false);
         g.display();
-    }
+   }
 }
 
 class Group {
