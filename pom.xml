@@ -13,6 +13,7 @@
         <module>coreJava</module>
         <module>collections</module>
         <module>lambdas</module>
+        <module>mongoDBConn</module>
     </modules>
     <groupId>com.sai.sri.siddhi.java</groupId>
     <version>1.0-SNAPSHOT</version>

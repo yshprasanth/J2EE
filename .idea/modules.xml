@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/coreJava/coreJava.iml" filepath="$PROJECT_DIR$/coreJava/coreJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/j2eeDesignPatterns/j2eeDesignPatterns.iml" filepath="$PROJECT_DIR$/j2eeDesignPatterns/j2eeDesignPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/lambdas/lambdas.iml" filepath="$PROJECT_DIR$/lambdas/lambdas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mongoDBConn/mongoDBConn.iml" filepath="$PROJECT_DIR$/mongoDBConn/mongoDBConn.iml" />
       <module fileurl="file://$PROJECT_DIR$/regExprn/regExprn.iml" filepath="$PROJECT_DIR$/regExprn/regExprn.iml" />
       <module fileurl="file://$PROJECT_DIR$/sortingAlgorithms/sortingAlgorithms.iml" filepath="$PROJECT_DIR$/sortingAlgorithms/sortingAlgorithms.iml" />
     </modules>
