@@ -1,12 +1,19 @@
 package sort;
 
+import java.util.Arrays;
 import java.util.Comparator;
 
 public class FastMergeSort {
 
+        public static  void main(String[] args) {
+            Integer[] arr = {1,4,3,25,4,6,22};
+            doSort(arr);
+        }
+
         @SuppressWarnings( { "unchecked" })
         private static void mergeSort(Object src[], Object dest[], int low, int high, int off,
                                       Comparator c) {
+            System.out.println("start merge sort: " + low + ", " +  high + ", " + (off) + "; " + Arrays.toString(src) + "; " + Arrays.toString(dest));
             int length = high - low;
 
             // use insertion sort on smallest arrays
@@ -27,12 +34,15 @@ public class FastMergeSort {
             low += off;
             high += off;
             int mid = (low + high) >> 1;
+            System.out.println("Calling first half merge sort: " + low + ", " +  mid + ", " + (-off) + ", " + Arrays.toString(dest) + "; " + Arrays.toString(src));
             mergeSort(dest, src, low, mid, -off, c);
+            System.out.println("Calling second half merge sort: " + low + ", " +  mid + ", " + (-off) + ", " + Arrays.toString(dest) + "; " + Arrays.toString(src));
             mergeSort(dest, src, mid, high, -off, c);
-
+            System.out.println("after Calling second half merge sort: " + low + ", " +  mid + ", " + (-off) + ", " + Arrays.toString(dest) + "; " + Arrays.toString(src));
             // is list already sorted?
             if (c.compare(src[mid - 1], src[mid]) <= 0) {
                 System.arraycopy(src, low, dest, destLow, length);
+                System.out.println("after arraycopy: " + low + ", " +  mid + ", " + dest + ", " + destLow + ", " + length + Arrays.toString(dest) + "; " + Arrays.toString(src));
                 return;
             }
 
@@ -44,6 +54,8 @@ public class FastMergeSort {
                     dest[i] = src[q++];
                 }
             }
+
+            System.out.println("after merge sorted : " + low + ", " +  mid + ", " + dest + ", " + destLow + ", " + length + Arrays.toString(dest) + "; " + Arrays.toString(src));
         }
 
         public void sort(Object[] a, Comparator c) {
