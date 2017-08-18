@@ -2,7 +2,7 @@ package arrays;
 
 public class RotateArray {
 
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
         RotateArray rotate = new RotateArray();
         int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
         rotate.leftRotate(arr, 4, 12);

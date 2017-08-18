@@ -1,7 +1,5 @@
 package arrays;
 
-import java.util.Arrays;
-
 public class ArrayDuplicateCount {
 
         void printRepeating(int arr[], int size)
@@ -18,7 +16,7 @@ public class ArrayDuplicateCount {
             }
         }
 
-        public static void main(String[] args) {
+        public static void main(String1[] args) {
             ArrayDuplicateCount repeat = new ArrayDuplicateCount();
             int arr[] = {4, 2, 4, 5, 2, 3, 1};
             int arr_size = arr.length;
