@@ -22,7 +22,9 @@
 	The number of different ways can be very large, so it is sufficient to return the result modulo 2P, for a given integer P.
 	Write a function:
 	class Solution { public int[] solution(int[] A, int[] B); }
-	that, given two non-empty zero-indexed arrays A and B of L integers, returns an array consisting of L integers specifying the consecutive answers; position I should contain the number of different ways of climbing the ladder with A[I] rungs modulo 2B[I].
+	that, given two non-empty zero-indexed arrays A and B of L integers, returns an array consisting of L integers
+	specifying the consecutive answers; position I should contain the number of different ways of climbing the
+	ladder with A[I] rungs modulo 2B[I].
 	For example, given L = 5 and:
 	    A[0] = 4   B[0] = 3
 	    A[1] = 4   B[1] = 2
