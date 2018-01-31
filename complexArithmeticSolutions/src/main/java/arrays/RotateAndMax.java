@@ -27,8 +27,6 @@ public class RotateAndMax {
         return maxIndex;
     }
 
-
-
     public int[] findMaxIndices(int[] arr, int[] rotation) {
         int rotationSize = rotation.length;
         int arraySize = arr.length;
@@ -64,8 +62,6 @@ public class RotateAndMax {
             arr[j] = temp; // 9 will be replaced with 0
         }
     }
-
-
 
     private int gcd(int maxNum, int minNum) {
         if(minNum==0)
