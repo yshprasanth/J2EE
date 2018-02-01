@@ -7,10 +7,12 @@ import java.util.HashMap;
 public class PhoneBillVerification {
 
     public static void main(String[] args) {
-        String s = "00:01:07,400-234-090\n" +
-                    "00:05:01,701-080-080\n" +
-                    "00:05:00,400-234-090";
+        String s = "02:01:07,400-234-090\n" +
+                "03:05:01,701-080-080\n" +
+                "04:05:00,400-234-090";
         int value = solution(s);
+        System.out.println("value: " + value);
+
     }
 
     private static int solution(String s) {
@@ -74,8 +76,9 @@ public class PhoneBillVerification {
                 price = (totalTime+1) * 150;
                 totalTime = (totalTime * 60) + seconds; // convert to seconds for the sake of identifying the larger call
             } else {
+                price = totalTime * 150;
                 totalTime = totalTime * 60;
-                price = totalTime * 3;
+
             }
 
         } else {
@@ -84,7 +87,7 @@ public class PhoneBillVerification {
             price = totalTime * 3;
 
         }
-        totalTime += (Integer.parseInt(time[0])*60);
+        //totalTime += (Integer.parseInt(time[0])*60);
 
         Long[] result = new Long[2];
         result[0] = totalTime; //in seconds

@@ -8,6 +8,7 @@ public class ThreadStaticLocks {
     static Logger logger = LoggerFactory.getLogger(ThreadStaticLocks.class);
 
     private static int counter;
+    private int cnt;
 
     public static int incrementCounterStatic() {
         return ++counter;

@@ -1,5 +1,7 @@
 package executor;
 
+import com.google.common.util.concurrent.FutureCallback;
+
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -20,6 +22,7 @@ public class ExecutorTest {
         System.out.println("Waiting for task to finish..");
         future.get();
         System.out.println("Task finished!:");
+
         executor.shutdown();
     }
 }

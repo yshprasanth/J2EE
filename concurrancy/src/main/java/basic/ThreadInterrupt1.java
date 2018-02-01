@@ -1,6 +1,5 @@
 package basic;
 
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -8,7 +7,7 @@ public class ThreadInterrupt1 {
     private static Logger logger = LoggerFactory.getLogger(ThreadInterrupt1.class);
 
     // 10 sec wait time
-    private static long waitTime = 20000; // in milli secs
+    private static long waitTime = 500; // in milli secs
 
     static void printMessage(String message) {
         logger.info(Thread.currentThread().getName() + ": " + message);
@@ -18,7 +17,7 @@ public class ThreadInterrupt1 {
 
         printMessage("start..");
 
-        MessagePrinter messagePrinter = new MessagePrinter(100, "I Love Threading");
+        MessagePrinter messagePrinter = new MessagePrinter(10000, "I Love Threading");
 
         printMessage("creating printerThread..");
 
@@ -29,7 +28,7 @@ public class ThreadInterrupt1 {
         printMessage("started printerThread..");
 
         printMessage("I am now waiting for 5 seconds for the printerThread to complete..");
-        printerThread.join(5000); // wait for 5 seconds for the printerThread to complete
+        printerThread.join(100); // wait for 5 seconds for the printerThread to complete
 
         printMessage("waited 5 seconds, check if the printerThread is still alive");
 
@@ -38,7 +37,7 @@ public class ThreadInterrupt1 {
             printMessage("the printerThread is still alive and printing..");
 
             printMessage("Sleep for 5 seconds..");
-            Thread.sleep(5000); // sleep for 5 more seconds
+            Thread.sleep(100); // sleep for 5 more seconds
 
             if(System.currentTimeMillis()-startTime>waitTime && printerThread.isAlive()){
                 printMessage("Interrupting printerThread..");

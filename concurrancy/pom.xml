@@ -16,6 +16,11 @@
             <artifactId>log4j</artifactId>
             <version>1.2.12</version>
         </dependency>
+        <dependency>
+            <groupId>net.corda</groupId>
+            <artifactId>corda-verifier</artifactId>
+            <version>0.16-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 

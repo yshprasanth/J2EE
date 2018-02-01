@@ -27,6 +27,7 @@ public class ForkBlur extends RecursiveAction {
     private int mBlurWidth = 15; // Processing window size, should be odd.
 
     public ForkBlur(int[] src, int start, int length, int[] dst) {
+        System.out.println("creating new ForkBlur: " + start + ", " + length);
         mSource = src;
         mStart = start;
         mLength = length;
@@ -35,6 +36,8 @@ public class ForkBlur extends RecursiveAction {
 
     // Average pixels from source, write results into destination.
     protected void computeDirectly() {
+        System.out.println("computing now: " + mStart + ", " + mLength);
+
         int sidePixels = (mBlurWidth - 1) / 2;
         for (int index = mStart; index < mStart + mLength; index++) {
             // Calculate average.

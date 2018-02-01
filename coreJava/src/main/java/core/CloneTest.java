@@ -1,5 +1,7 @@
 package core;
 
+import java.util.concurrent.atomic.AtomicLongArray;
+
 public class CloneTest {
 
     public static void main(String[] args) {
@@ -17,7 +19,7 @@ public class CloneTest {
     }
 }
 
-class Person implements  Cloneable{
+class Person implements Cloneable{
     String name;
     int number;
 
@@ -28,7 +30,7 @@ class Person implements  Cloneable{
     }
 
     @Override
-    public Object clone() throws CloneNotSupportedException {
+    protected Object clone() throws CloneNotSupportedException {
         return  super.clone();
     }
 

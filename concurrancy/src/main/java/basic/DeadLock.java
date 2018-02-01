@@ -1,7 +1,7 @@
 package basic;
 
-public class DeadLock {
-        static class Friend {
+class DeadLockTest {
+    class Friend {
             private final String name;
             public Friend(String name) {
                 this.name = name;
@@ -21,18 +21,17 @@ public class DeadLock {
                         this.name, bower.getName());
             }
         }
+}
 
-        public static void main(String[] args) {
-            final Friend alphonse =
-                    new Friend("Alphonse");
-            final Friend gaston =
-                    new Friend("Gaston");
-            new Thread(new Runnable() {
-                public void run() { alphonse.bow(gaston); }
-            }).start();
-            new Thread(new Runnable() {
-                public void run() { gaston.bow(alphonse); }
-            }).start();
-        }
+public class DeadLock {
+    public static void main(String[] args) {
+        final DeadLockTest deadLockTest = new DeadLockTest();
+        final DeadLockTest.Friend alphonse =
+                deadLockTest.new Friend("Alphonse");
+        final DeadLockTest.Friend gaston =
+                deadLockTest.new Friend("Gaston");
 
+        new Thread(() -> alphonse.bow(gaston) ).start();
+        new Thread(() -> gaston.bow(alphonse) ).start();
+    }
 }

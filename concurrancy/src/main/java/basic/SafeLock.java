@@ -3,6 +3,11 @@ package basic;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.Random;
+import java.util.function.BiConsumer;
+import java.util.function.BiFunction;
+import java.util.function.Function;
+
+import static java.lang.Thread.*;
 
 public class SafeLock {
 
@@ -77,7 +82,7 @@ public class SafeLock {
             Random random = new Random();
             for (;;) {
                 try {
-                    Thread.sleep(random.nextInt(10));
+                    sleep(random.nextInt(10));
                 } catch (InterruptedException e) {}
                 bowee.bow(bower);
             }
@@ -90,7 +95,19 @@ public class SafeLock {
                 new Friend("Alphonse");
         final Friend gaston =
                 new Friend("Gaston");
-        new Thread(new BowLoop(alphonse, gaston)).start();
-        new Thread(new BowLoop(gaston, alphonse)).start();
+        BiFunction<Friend, Friend, BowLoop> bowLoop = BowLoop::new;
+        BowLoop bowLoop1 = bowLoop.apply(alphonse, gaston);
+        BowLoop bowLoop2 = bowLoop.apply(gaston, alphonse);
+        Thread t1 = new Thread(bowLoop1);
+        Thread t2 = new Thread(bowLoop2);
+        t1.start();
+        t2.start();
+        try {
+            sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.exit(1);
     }
 }

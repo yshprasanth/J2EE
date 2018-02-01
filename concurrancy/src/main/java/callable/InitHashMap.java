@@ -18,7 +18,7 @@ public class InitHashMap {
                 });
             }
         };
-        System.out.println(m.get(0));
+        System.out.println(m.get(0).call());
     }
 
 }
