@@ -3,7 +3,9 @@ package functions;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Consumer;
 import java.util.function.Function;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 public class FunctionMapper {
@@ -36,6 +38,7 @@ class Person {
     private String name;
     private int age;
     private String location;
+    private Function<Person, String> c = p -> p.getLocation();
 
     public Person(String name, int age, String location) {
         this.name = name;

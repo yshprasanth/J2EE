@@ -1,0 +1,7 @@
+
+]squid:S2142R"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+dsquid:S3457H"AFormat specifiers should be used instead of string concatenation.(‹ßÏıÿÿÿÿ8œúÊ‹-
+dsquid:S3457"AFormat specifiers should be used instead of string concatenation.(‹ßÏıÿÿÿÿ8œúÊ‹-
+?squid:S1148T"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Zsquid:S2629H"7Use the built-in formatting to construct this argument.(‹ßÏıÿÿÿÿ8œúÊ‹-
+Zsquid:S2629"7Use the built-in formatting to construct this argument.(‹ßÏıÿÿÿÿ8œúÊ‹-

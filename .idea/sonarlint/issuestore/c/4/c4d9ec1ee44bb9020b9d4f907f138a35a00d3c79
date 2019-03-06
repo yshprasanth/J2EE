@@ -1,0 +1,8 @@
+
+?squid:S11487"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ïçî™ûÿÿÿÿ8³×°Ë‹-
+]squid:S3457."AFormat specifiers should be used instead of string concatenation.(È¾æ°ûÿÿÿÿ
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¼±Êàúÿÿÿÿ8æˆÝË‹-
+Ssquid:S2629."7Use the built-in formatting to construct this argument.(È¾æ°ûÿÿÿÿ
+]squid:S34572"AFormat specifiers should be used instead of string concatenation.(¶¢²Ëüÿÿÿÿ
+]squid:S21426"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€

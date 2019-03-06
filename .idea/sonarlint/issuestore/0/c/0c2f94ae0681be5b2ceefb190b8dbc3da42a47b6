@@ -1,0 +1,14 @@
+
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(İ¸Œ
+msquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ÜÍñïûÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÜÍñïûÿÿÿÿ
+hsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(îëô
+¢%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ
+O
+squid:S106 "9Replace this use of System.out or System.err by a logger.(¥–ëÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(îëô
+hsquid:S3457 "Q%n should be used in place of \n to produce the platform-specific line separator.(¥–ëÿ
+hsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(İ¸Œ

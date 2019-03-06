@@ -1,0 +1,11 @@
+
+psquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ç¡ä˜
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(İ¼ä÷üÿÿÿÿ
+O
+squid:S106!"9Replace this use of System.out or System.err by a logger.(±ÃøÉ
+N
+squid:S1068"9Replace this use of System.out or System.err by a logger.(ÊÅ‚
+T
+squid:S106B"9Replace this use of System.out or System.err by a logger.(ù»—Ãøÿÿÿÿ
+=squid:S1170"!Make this final field static too.(Äõşüÿÿÿÿ
+qsquid:S00116"TRename this field "CPU_COUNT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äõşüÿÿÿÿ

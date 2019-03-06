@@ -1,0 +1,6 @@
+
+[
+squid:S106	"9Replace this use of System.out or System.err by a logger.(ÙºØûÿÿÿÿ8»úé¨Œ-
+Rsquid:S1611	"/Remove the parentheses around the "x" parameter(ÙºØûÿÿÿÿ8š¢ñ¨Œ-
+csquid:UselessImportCheck"8Remove this unused import 'java.util.function.Function'.(»³Í8üóì¨Œ-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¹’Äî8À ø¨Œ-

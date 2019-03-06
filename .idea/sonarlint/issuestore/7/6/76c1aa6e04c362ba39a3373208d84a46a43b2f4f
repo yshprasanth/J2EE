@@ -1,0 +1,24 @@
+
+[
+squid:S106$"9Replace this use of System.out or System.err by a logger.(½İ°ûÿÿÿÿ8¡‘şÊ‹-
+Usquid:S1135("2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8³ßöÊ‹-
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8³ßöÊ‹-
+[
+squid:S106""9Replace this use of System.out or System.err by a logger.(™»å›ûÿÿÿÿ8‰ÕıÊ‹-
+Fsquid:S1148)"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8³ßöÊ‹-
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8³ßöÊ‹-
+[
+squid:S106,"9Replace this use of System.out or System.err by a logger.(§œêÒşÿÿÿÿ8³ßöÊ‹-
+dsquid:S2142'"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8³ßöÊ‹-
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8³ßöÊ‹-
+[
+squid:S1064"9Replace this use of System.out or System.err by a logger.(À”‡Üÿÿÿÿÿ8³ßöÊ‹-
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8³ßöÊ‹-
+[
+squid:S106 "9Replace this use of System.out or System.err by a logger.(ñşÛçùÿÿÿÿ8…‰ıÊ‹-
+[
+squid:S106:"9Replace this use of System.out or System.err by a logger.(ÁÆ¾Ãıÿÿÿÿ8³ßöÊ‹-
+dsquid:S21427"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8³ßöÊ‹-
+[
+squid:S106&"9Replace this use of System.out or System.err by a logger.(àé‡şÿÿÿÿ8–ÿÊ‹-
+Fsquid:S11488"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8³ßöÊ‹-

@@ -1,0 +1,17 @@
+
+\squid:S1610"9Convert the abstract class "CloneTest" into an interface.(²Æ¶‰øÿÿÿÿ8­©ÁÈ‹-
+qsquid:UselessImportCheck"HRemove this unused import 'java.util.concurrent.atomic.AtomicLongArray'.(ã–¨Áıÿÿÿÿ
+isquid:S29750"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(™”” 
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(èÙ¸Ü
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+T
+squid:S106,"9Replace this use of System.out or System.err by a logger.(šûã‡şÿÿÿÿ
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(×ŒÙ±úÿÿÿÿ8…áÅÈ‹-
+>squid:S11850"(Remove this method to simply inherit it.(™”” 
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ãÊåœ8›ÕÊÈ‹-
+bsquid:UselessImportCheck"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8ƒÕÈ‹-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(•ò¼şÿÿÿÿ8›ÕÊÈ‹-

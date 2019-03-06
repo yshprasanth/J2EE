@@ -1,0 +1,17 @@
+
+Gsquid:S1172")Remove this unused method parameter "sb".(âÏ®8¯¥è©‹-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹Òšˆ8úëä©‹-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(°õÏ€úÿÿÿÿ8¯¥è©‹-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ãä…¢8ÌçŞ©‹-
+Fsquid:S1172"(Remove this unused method parameter "o".(‡·8ÍçŞ©‹-
+Fsquid:S1172"(Remove this unused method parameter "s".(àëÌİ8¯¥è©‹-
+}squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(âÏ®8¯¥è©‹-
+isquid:S2184	"FCast one of the operands of this multiplication operation to a "long".(·ÅÃıÿÿÿÿ8úëä©‹-
+[
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(©íÀ¶øÿÿÿÿ8úëä©‹-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(°õÏ€úÿÿÿÿ8¯¥è©‹-

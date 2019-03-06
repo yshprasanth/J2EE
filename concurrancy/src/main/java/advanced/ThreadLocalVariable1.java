@@ -7,20 +7,22 @@ import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class ThreadLocalVariable1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Incrementer counter = new Incrementer();
 
-        Executor service = Executors.newFixedThreadPool(4);
+        ExecutorService service = Executors.newFixedThreadPool(4);
         service.execute(counter);
+        Thread.sleep(5000);
         service.execute(counter);
-        service.execute(counter);
-        service.execute(counter);
-        service.execute(counter);
-        service.execute(counter);
-        service.execute(counter);
-        service.execute(counter);
+//        service.execute(counter);
+//        service.execute(counter);
+//        service.execute(counter);
+//        service.execute(counter);
+//        service.execute(counter);
+//        service.execute(counter);
 
-        service = null;
+//        if(!service.isShutdown())
+//            service.shutdown();
     }
 }
 
@@ -41,9 +43,7 @@ class Incrementer implements Runnable {
         else
             threadLocalCounter.set(0);
 
-        logger.info("counter: " + counter);
-        logger.info("atomicCounter: " + atomicCounter.get());
-        logger.info("threadLocalCounter: " + threadLocalCounter.get());
+        logger.info("counter: " + counter + ", " +  atomicCounter.get() + ", " + threadLocalCounter.get());
 
         while(true){
             threadLocalCounter.set(threadLocalCounter.get()+1);

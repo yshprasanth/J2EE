@@ -1,0 +1,10 @@
+
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(ô€ÿŒ
+N
+squid:S1069"9Replace this use of System.out or System.err by a logger.(Ó„Ùn
+gsquid:S34579"Q%n should be used in place of \n to produce the platform-specific line separator.(Ó„Ùn
+usquid:S22931"YReplace the type specification in this constructor call with the diamond operator ("<>").(Õ¢êàúÿÿÿÿ
+Tsquid:S11970"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì¶â¿øÿÿÿÿ

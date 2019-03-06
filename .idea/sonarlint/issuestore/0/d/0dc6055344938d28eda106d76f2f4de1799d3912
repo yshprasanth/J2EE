@@ -1,0 +1,14 @@
+
+O
+squid:S106F"9Replace this use of System.out or System.err by a logger.(“À«
+O
+squid:S106A"9Replace this use of System.out or System.err by a logger.(ÌÃ
+T
+squid:S1063"9Replace this use of System.out or System.err by a logger.(˜¯Ö¥úÿÿÿÿ
+Tsquid:S11978"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+Bsquid:S1659	"&Declare "lastName" on a separate line.(ŞùÇıÿÿÿÿ
+O
+squid:S106L"9Replace this use of System.out or System.err by a logger.(“À«
+gsquid:S1206&"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã
+O
+squid:S106""9Replace this use of System.out or System.err by a logger.(ıî“Ó

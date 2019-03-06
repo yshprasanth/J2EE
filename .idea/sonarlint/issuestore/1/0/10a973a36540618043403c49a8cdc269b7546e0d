@@ -1,0 +1,12 @@
+
+Csquid:S1068)"%Remove this unused "c" private field.(¤™ğ8û©é‘Œ-
+Jsquid:S1068'"'Remove this unused "age" private field.(Æ†´¦şÿÿÿÿ8šáçÈ‹-
+Osquid:S1612",Replace this lambda with a method reference.(‚íÈ‘üÿÿÿÿ8šáçÈ‹-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(´È÷Äüÿÿÿÿ8šáçÈ‹-
+[squid:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8šáçÈ‹-
+Osquid:S1612",Replace this lambda with a method reference.(€È’ıÿÿÿÿ8šáçÈ‹-
+csquid:UselessImportCheck"8Remove this unused import 'java.util.function.Supplier'.(†ïÿ‘8û©é‘Œ-
+hsquid:UselessImportCheck"8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ8û©é‘Œ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(´È÷Äüÿÿÿÿ8šáçÈ‹-
