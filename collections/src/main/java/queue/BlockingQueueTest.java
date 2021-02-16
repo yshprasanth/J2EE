@@ -38,8 +38,8 @@ class Producer implements Runnable {
         for (int i = 0; i < 10; i++) {
             try {
                 deque.putFirst(i);
-                System.out.println(name + " puts " + i);
-                Thread.sleep(300);
+                System.out.println(Thread.currentThread() + " - " + name + " puts " + i);
+//                Thread.sleep(300);
 
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -63,8 +63,8 @@ class Consumer implements Runnable {
         for (int i = 0; i < 10; i++) {
             try {
                 int j = deque.takeLast();
-                System.out.println(name + " takes " + j);
-                Thread.sleep(3000);
+                System.out.println(Thread.currentThread() + " - " + name + " takes " + j);
+//                Thread.sleep(3000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
