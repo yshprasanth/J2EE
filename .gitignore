@@ -11,6 +11,7 @@
 *.iws
 *.iml
 *.ipr
+./**/*.iml
 
 # Eclipse, ctags, Mac metadata, log files
 .classpath
